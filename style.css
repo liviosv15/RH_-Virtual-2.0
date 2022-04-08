@@ -1,0 +1,67 @@
+input{
+    background-color: lightgray;
+    border: 2px;
+    border-radius: 2px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+div.conteudo{
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+
+a.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color:black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div.titulo{
+    font-size: 30px;
+    font-family: 'Lucida Bright', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+div.navbar{
+    background-color: gray;
+    height: 70px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    /*border-radius: 6px; Retirei a borda da barra de navegação, se n gostar pode colocar de nv (Lívio)*/
+    padding-left: 15px;
+}
+
+div.cardaction{
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+div.envio{
+    margin-top: 5px;
+    color: black;
+    position: relative;
+    
+}
+
+button{
+    margin-top: 10px;
+    width: 110px;
+    height: 38px;
+    background-color: #373737;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body{
+    margin-top: -21px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: whitesmoke;
+}
