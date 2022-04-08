@@ -3,66 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>RH Virtual - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
     <div class="navbar">
         <a id="title" class="title" href="login.html"><h1>RH VIRTUAL</h1></a>
     </div>
-    <br><br
-    <div class="centro"><h1>Cadastro</h1></div>
-    <div class="cadastro">
-        <input class="nameuser" placeholder="Nome Completo" id="nome" name="nome" type="text">
-          
-    </div>
-    <div class="cadastro">
-        <input class="emailuser" placeholder="E-mail" id="email" name="email" type="email">
-        
-    </div>
-
-    <div class="cadastro">
-        <input class="senhauser" placeholder="Crie Uma Senha" id="senha" name="senha" type="password">
-        
-    </div>
-    <div class="cadastro">
-        <input class="conf_senhauser" placeholder="Confirme Sua Senha" id="conf_senha" name="confirmacao" type="password">
-        <label class="senha" data-error="Algo deu errado! Tente novamente." for="conf_/senha"></label>
-    </div>
-    <div class="cadastro">
-        <input class="cpf" placeholder="CPF" id="cpf" name="cpf" type="number">
-        
-    </div>
-    <div class="cadastro">
-        <input class="nasc" placeholder="Data de Nascimento" id="nasc" name="nasc" type="date">
-    </div>
-    <div class="cadastro">
-        <input class="sexo" placeholder="Gênero (Masculino/Feminino)" id="sexo" name="sexo" type="text">
-
-    </div>
-    <div class="cadastro">
-        <input class="contato" placeholder="Telefone" id="contato" name="contato" type="number">
-        
-    </div>
-    <div class="cadastro">
-        <input class="end" placeholder="Rua" id="End" name="end" type=ua"text">
-        
-    </div>
-    <div class="cadastro">
-        <input class="nun" placeholder="Número" id="nun" name="nun" type="number">
-        
-    </div>
-    <div class="cadastro">
-        <input class="bairro" placeholder="Bairro" id="bairro" name="bairro" type=ua"text">
-        
-    </div>
-    <div class="cadastro">
-        <input class="ceep" placeholder="CEP" id="cep" name="cep" type="number">
-        
-    </div>
-    <h3>Agora, nos envie o seu currículo em pdf</h3>
-    <div class="cadastro">
-        <input class="curriculo" placeholder="Currículo" id="curriculo" name="curriculo" type="file">
-    </div>
     <br>
-    <button class="cadastrar" href="login.html" type="submit">Cadastrar</button>
+    <div class="conteudo">
+        <div class="titulo"><h1>Cadastro</h1></div>
+        <div class="cadastro">
+            <input class="nameuser" placeholder="Nome" id="nome" name="nome" type="text">
+              
+        </div>
+        <div class="cadastro">
+            <input class="sobreuser" placeholder="Sobrenome" id="sobreuser" name="sobreuser" type="text"  style="margin-top: 10px";>
+              
+        </div>
+        <div class="cadastro">
+            <input class="emailuser" placeholder="E-mail" id="email" name="email" type="email"  style="margin-top: 10px";>
+            
+        </div>
+    
+        <div class="cadastro">
+            <input class="senhauser" placeholder="Crie Uma Senha" id="senha" name="senha" type="password"  style="margin-top: 10px";>
+            
+        </div>
+        <div class="cadastro">
+            <input class="conf_senhauser" placeholder="Confirme Sua Senha" id="conf_senha" name="confirmacao" type="password"  style="margin-top: 10px";>
+            <label class="senha" data-error="Algo deu errado! Tente novamente." for="conf_/senha"></label>
+        </div>
+        <br>
+        <h3>Como você deseja se cadastrar?</h3>
+        <a href="cadastro2.html" type="button">
+            <button class="avanco">Autônomo</button>
+        </a>
+        <a href="cadastro2.html" type="button">
+            <button class="avanco">Empregador</button>
+        </a>
+    </div>
 </body>
 </html>
