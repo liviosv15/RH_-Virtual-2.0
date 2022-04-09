@@ -14,43 +14,48 @@
         <div class="titulo"><h2>Dados Pessoais: Trabalhador Autônomo</h2></div>
 
         <div class="cadastro">
-            <input class="cpf" placeholder="CPF" id="cpf" name="cpf" type="">
+            <input class="cpf" placeholder="CPF" id="cpf" name="cpf" type="text" required>
             
         </div>
         <div class="cadastro">
-            <input class="nasc" placeholder="Data de Nascimento" id="nasc" name="nasc" type="date"  style="margin-top: 10px;">
+            <input class="nasc" placeholder="Data de Nascimento" id="nasc" name="nasc" type="date"  style="margin-top: 10px;" required>
         </div>
 
-        <label for="#">Gênero:</label>
-        <input type="radio" name="radioGenero" value="F" style="width: 13px; height: 15px; margin-top: 20px;"> Feminino.
-        <input type="radio" name="radioGenero" value="M" style="width: 13px; height: 15px; margin-top: 20px;"> Masculino.
+        <div class="genero">
+            <label><strong>Gênero: </strong></label>
+            <select id="genero" required>
+                <option selected disabled value="#">Selete</option>
+                <option>Feminino</option>
+                <option>Masculino</option>
+            </select>
+        </div>
         
         <div class="cadastro">
-            <input class="formacao" placeholder="Formação Proficional" id="formacao" name="formacao" type="text" style="margin-top: 10px;">
+            <input class="formacao" placeholder="Formação Proficional" id="formacao" name="formacao" type="text" style="margin-top: 10px;" required>
         </div>
         <div class="cadastro">
-            <input class="contato" placeholder="Telefone" id="contato" name="contato" type="tel"  style="margin-top: 10px";>
+            <input class="contato" placeholder="Telefone" id="contato" name="contato" type="tel"  style="margin-top: 10px"; required>
             
         </div>
         <div class="cadastro">
-            <input class="end" placeholder="Rua" id="End" name="end" type=ua"text"  style="margin-top: 10px";>
+            <input class="end" placeholder="Rua" id="End" name="end" type=ua"text"  style="margin-top: 10px"; required>
             
         </div>
         <div class="cadastro">
-            <input class="nun" placeholder="Número" id="nun" name="nun" type="number"  style="margin-top: 10px";>
+            <input class="nun" placeholder="Número" id="nun" name="nun" type="number"  style="margin-top: 10px"; required>
             
         </div>
         <div class="cadastro">
-            <input class="bairro" placeholder="Bairro" id="bairro" name="bairro" type=ua"text"  style="margin-top: 10px";>
+            <input class="bairro" placeholder="Bairro" id="bairro" name="bairro" type=ua"text"  style="margin-top: 10px"; required>
             
         </div>
         <div class="cadastro">
-            <input class="cep" placeholder="CEP" id="cep" name="cep" type="text"  style="margin-top: 10px";>
+            <input class="cep" placeholder="CEP" id="cep" name="cep" type="text"  style="margin-top: 10px"; required>
             
         </div>
         <h3>Agora, nos envie o seu currículo em .pdf</h3>
         <div class="envio">
-            <input class="curriculo" placeholder="Currículo" id="curriculo" name="curriculo" type="file" style="background-color: whitesmoke;">
+            <input class="curriculo" placeholder="Currículo" id="curriculo" name="curriculo" type="file" style="background-color: whitesmoke;" required>
         </div>
         <a class="voltar1" href="cadastro.html" type="button" style="margin-right: 60px;">
             <button><b>Voltar</b></button>
