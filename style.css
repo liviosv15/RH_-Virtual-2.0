@@ -49,6 +49,12 @@ div.envio{
     
 }
 
+div.genero{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
 button{
     margin-top: 10px;
     width: 110px;
